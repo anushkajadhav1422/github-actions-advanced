@@ -1,0 +1,16 @@
+{
+  "name": "github-actions-advanced",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+  "build": "mkdir -p dist && cp app.js dist/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^30.5.1"
+  }
+}
