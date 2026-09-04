@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-  "build": "mkdir -p dist && cp app.js dist/app.js"
+    "build": "shx mkdir -p dist && shx cp app.js dist/app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^30.5.1"
+    "jest": "^30.5.1",
+    "shx": "^0.4.0"
   }
 }
